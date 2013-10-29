@@ -2,7 +2,7 @@
     Recipe example - fancy style 2
     ================================= */
 
-// importing web fonts
+/* importing web fonts */
 @import url(http://fonts.googleapis.com/css?family=Raleway+Dots|Quicksand:400,700|Cherry+Swash);
 
 body {
