@@ -2,6 +2,7 @@
     Recipe example - fancy style 2
     ================================= */
 
+// importing web fonts
 @import url(http://fonts.googleapis.com/css?family=Raleway+Dots|Quicksand:400,700|Cherry+Swash);
 
 body {
@@ -40,6 +41,7 @@ h1 {
 }
 
 
+/* recipe specific styles */
 .recipe {
   position: relative;
   padding: 3%;
@@ -93,14 +95,11 @@ h1 {
 }
 
 
-
+/* aside specific styles */
 aside {
   background-color: #F05430;
   padding: 3%;
   color: #fff;
-}
-
-aside .title {
 }
 
 aside .related-list {
@@ -130,7 +129,8 @@ aside .related-list li:hover img {
 
 
 
-/* ===  special rules for phones and small tablets === */
+/* Simple responsive layout adjustments
+     special rules for phones and small tablets */
 @media only screen and (max-width: 600px) {
 
 h1 {
